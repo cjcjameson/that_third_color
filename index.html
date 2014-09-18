@@ -4,19 +4,24 @@
 <meta charset="UTF-8">
 <title>That Third Color</title>
 <script src="scripts/colors.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
 <body>
-<h1>Hello! Put in <span class="red">colors</span> and we'll give you a third one.</h1>
+<h1>Welcome ... Put in two colors ... and we'll give you a third one.</h1>
 
 <form>
 First color:
-<input type="color" name="first_color" value="#448822">
+<input type="color" class="input" id="first-input" name="first_color" value="#448822">
 Second color:
-<input type="color" name="second_color" value="#ff0066">
-<input type="submit">
+<input type="color" class="input" id="second-input" name="second_color" value="#ff0066">
 </form>
+
+
+<div class="submit">See the third color...</div>
+
+<div class="output"></div>
 
 </body>
 
