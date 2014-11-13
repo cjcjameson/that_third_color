@@ -1,5 +1,4 @@
 window.onload = function(){
-	
 	$(".submit").click(generateThirdColor);
 }
 
