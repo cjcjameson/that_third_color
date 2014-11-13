@@ -14,7 +14,7 @@ var calculateThirdColor = function(color1, color2) {
 	return "#dddd99";
 }
 
-var showThirdColor = function(color) {
+var showThirdColor = function(thirdColor) {
 	$(".output").css("visibility","visible");
 	$(".output").html(thirdColor);
 	$(".output").css("background-color",thirdColor);
